@@ -516,7 +516,7 @@ body
         order: 1;
     }
     .aqua{
-        font-size: 2.75rem;
+        font-size: 2.25rem;
     }
     .rightsection img{
         margin-top: 10.5%;
@@ -630,10 +630,11 @@ body
     @media (max-width: 450px){
         html{
             font-size: 50%;
+           
         }  
     }
     @media (max-width: 250px){
-        html{
+        body{
             width: 50%;
         }  
     }
