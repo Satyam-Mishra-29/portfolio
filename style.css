@@ -622,17 +622,95 @@ body
         font-size: 1.75rem;
      }
 }
-@media (max-width: 500px){
+@media (max-width: 501px){
     html{
-        font-size: 65%;
+        font-size: 75%;
     }
 }
-    @media (max-width: 450px){
+    @media (max-width: 451px){
         html{
-            font-size: 50%;
-           
-        }  
+            width: 100%;
+            font-size: 80%; 
+        } 
+        .header {
+            height: 60px;
+        } 
+        .navbar.active {
+            margin-top: -1%;
+        }
+        .navbar {
+            padding: .01rem 3%;
+        }
+        .first{
+            margin: 10% 0 5% 25%;
+        }
+        .leftsection {
+            font-size: 3rem;
+            margin-left: 45%;
+        }
+        .rightsection img {
+            width: 100%;
+        }
+        .aqua{
+            font-size: 3rem;
+        }
+        .social a {
+            font-size: 2.5rem;
+        }
+        .btn {
+            font-size: 1.5rem;
+        }
+
+        .second {
+            margin-left: 50%;
+            width: 100%;
+        }
+        .leftsection2 img {
+            margin-left: -20%;
+            width: 60%;
     }
+    .third h2{
+        margin: 0% 0 0 63%;
+        font-size: 2rem;
+    }
+    .service-container .service-box {
+        width: 100%;
+    }
+    .service-container{
+        width: 80%;
+        margin: 0 0 0 33%;
+    }
+    .fourth h2{
+        width: 100%;
+        margin: 0% 0 0 55%;
+        font-size: 2rem;
+    }
+    .projects {
+        width: 90%;
+        margin: 2rem 0 5rem 33%;
+    }
+    .fifth h2 {
+        font-size: 2rem;
+        margin: 9% 5rem 0rem 65%;
+        width: 100%;
+    }
+    .fifth form .input-box{
+        margin-left: 33%;
+    }
+    .fifth form textarea {
+        margin-left: 33%;
+    }
+    .fifth form .btn {
+        margin: 2rem 0 0 57%;
+    }
+    .footer {
+        width: 180%;
+    }
+    .footer-iconTop {
+        margin: 0 0 0 5%;
+    }
+    }
+    
     @media (max-width: 250px){
         body{
             width: 50%;
