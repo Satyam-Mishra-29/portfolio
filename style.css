@@ -770,6 +770,61 @@ body
     
     @media (max-width: 376px){
         html{
-            width: 50%;
+            font-size: 50%;
+            width: 50px;
         }  
+        .first {
+            width: 500%;
+            margin: 120% 0 5% 25%;
+        }
+        .second {
+            margin-left: 50%;
+            width: 500%;
+        }
+        #head {
+            margin: 2.5% 0 0 60.5%;
+        }
+        .rightsection2 p {
+            width: 130%;
+            font-size: 2.25rem;
+            margin-left: 20%;
+        }
+        .third h2 {
+            width: 300%;
+            margin: 2.5% 0 0 250%;
+        }
+        .service-container {
+            width: 100%;
+            margin: 0 0 0 250%;
+        }
+        .fourth h2 {
+            width: 1000%;
+            margin: 0% 0 0 150%;
+        }
+        .projects {
+            width: 650%;
+            margin: 2rem 0 5rem 100%;
+        }
+        .fifth h2 {
+            margin: 9% 5rem 0rem 250%;
+            width: 1000%;
+        }
+        .fifth form .input-box {
+            width: 1300%;
+            margin-left: 29%;
+        }
+        .fifth form textarea {
+            width: 640%;
+            margin-left: 29%;
+        }
+        .fifth form .btn {
+            margin: 2rem 0 0 200%;
+            width: fit-content;
+        }
+        .footer {
+            width: 732%;
+        }
+        .footer-iconTop a i {
+            font-size: 2.75rem;
+        }
     }
