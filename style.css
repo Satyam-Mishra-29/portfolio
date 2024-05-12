@@ -660,4 +660,98 @@ body
             font-size: 1.25rem;
             margin-top: 2%;
         }
+        .leftsection2 img {
+            width: 60vw;
+            margin-left: -40%;
+        }
+        #head {
+            font-size: 2rem;
+        }
+        .third h2 {
+            font-size: 2rem;
+            margin: 0% 0 0 35.5%;
+        }
+        .service-container {
+            margin: 0 0 0 2.5rem;
+        }
+        .service-box i {
+            font-size: 4rem;
+        }
+        .service-box h3 {
+            font-size: 1.7rem;
+        }
+        .service-box p {
+            font-size: 1.25rem;
+        }
+        .fourth h2 {
+            margin: 2rem 5rem 0rem 25.5%;
+            font-size: 2rem;
+        }
+        .projects {
+            width: 95%;
+            margin: 2rem 0 5rem 1rem;
+        }
+        .fifth h2 {
+            margin: 9% 5rem 0rem 35%;
+        }
+        .fifth form textarea {
+            margin: 0 0 0 0rem;
+        }
+        .footer-text {
+            font-size: 1.4rem;
+        }
+        .footer-iconTop a i {
+            font-size: 2rem;
+        }
+}
+@media (max-width:376px) {
+    .header {
+        height: 60px;
     }
+    .leftsection {
+        margin-left: 35%;
+    }
+    .second {
+        margin-left: 25%;
+    }
+    .second div {
+        width: 120%;
+    }
+    .rightsection2 {
+    margin: 0 0px 0 -27%;
+    width: 110%;
+}
+.leftsection2 {
+    margin: 40px 0 0 115px;
+}
+.third h2 {
+    margin: 0% 0 0 30.5%;
+}
+.service-container {
+    margin: 0 0 0 0rem;
+    width: 115%;
+}
+.service-box i {
+    font-size: 2.75rem;
+}
+.fourth h2 {
+    margin: 2rem 5rem 0rem 18.5%;
+}
+.fifth h2 {
+    margin: 9% 5rem 0rem 33%;
+}
+.fifth form .btn {
+    margin: 2rem 0 0 27%;
+}
+.fifth form textarea {
+    margin: 0 0 0 0.3rem;
+}
+}
+@media(max-width: 321px){
+    html {
+        font-size: 60%;
+    }
+    .leftsection2 img {
+        margin-left: -45%;
+    }
+}
